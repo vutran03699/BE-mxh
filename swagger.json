@@ -5,11 +5,11 @@
       "title": "Yet Another Node.js Blogg Application API",
       "description": "Yet Another Node.js Blogg Application API"
     },
-    "host": "localhost:3000",
-    "basePath": "/api/v1",
+    "host": "https://backend-mxh.herokuapp.com",
+    "basePath": "/",
     "tags": [
       {
-        "name": "Users",
+        "name": "Signup",
         "description": "API for users in the system"
       }
     ],
@@ -24,12 +24,12 @@
       "application/json"
     ],
     "paths": {
-      "/users": {
+      "/signup": {
         "post": {
           "tags": [
             "Users"
           ],
-          "description": "Create new user in system",
+          "description": "Đăng kí tài khoản",
           "parameters": [
             {
               "name": "user",
