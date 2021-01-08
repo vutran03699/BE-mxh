@@ -18,10 +18,10 @@ router.delete("/user/:userId", requireSignin, deleteUser);
 //photo
 router.get("/user/photo/:userId", userPhoto);
 
-// follow suggestions
+// gợi ý follow 
 router.get("/user/findpeople/:userId", requireSignin, findPeople);
 
-// any route containing :userId, this is execute first
+// bất kỳ tuyến đường nào có :userId, sẽ được thực thi trước
 router.param("userId", userById);
 
 module.exports = router;

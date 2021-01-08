@@ -37,9 +37,9 @@ router.delete("/post/:postId", requireSignin, isPoster, deletePost);
 router.get("/post/photo/:postId", photo);
 
 
-// any route containing :userId, this is execute first
+// bất kỳ đường chứa :userId, sẽ được thực hiện đầu tiên
 router.param("userId", userById);
-// any route containing :postId, this is execute first
+// bất kỳ đường chứa :postId, sẽ được thực hiện đầu tiên
 router.param("postId", postById);
 
 module.exports = router;

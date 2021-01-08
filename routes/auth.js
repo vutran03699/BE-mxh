@@ -10,7 +10,7 @@ router.post("/signin", signin);
 router.get("/signout", signout);
 router.post("/social-login", socialLogin); 
 
-// password forgot and reset routes
+// quên password và reset routes
 router.put("/forgot-password", forgotPassword);
 router.put("/reset-password", passwordResetValidator, resetPassword);
 
