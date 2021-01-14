@@ -1,9 +1,9 @@
 {
-    "swagger": "2.0",
+    "swagger": "3.0",
     "info": {
       "version": "1.0.0",
-      "title": "Yet Another Node.js Blogg Application API",
-      "description": "Yet Another Node.js Blogg Application API"
+      "title": "Document Api Đồ ÁN Social App",
+      "description": "Đồ án môn học 2020 - 2021"
     },
     "host": "https://backend-mxh.herokuapp.com",
     "basePath": "/",

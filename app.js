@@ -192,7 +192,7 @@ var swaggerJsdoc = require("swagger-jsdoc"),
 
 //const specs = swaggerJsdoc(options);
 app.use(
-    "/",
+    "/DOCS",
     swaggerUi.serve,
   //  swaggerUi.setup(specs)
   swaggerUi.setup(swaggerDocument)
